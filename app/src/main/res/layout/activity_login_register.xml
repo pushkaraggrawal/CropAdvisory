@@ -7,21 +7,39 @@
     tools:context=".LoginRegisterActivity">
 
     <ImageView
+        android:id="@+id/logo_on_top"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:src="@drawable/bits_logo" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_on_top"
+        android:layout_above="@+id/btn_login"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:layout_margin="32dp"
+        android:text="@string/login_page_gyaan"
+        />
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log In/ Register"
-        android:background="#4caf50"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="54dp"
-        android:drawableLeft="@drawable/fui_ic_phone_white_24dp" />
+        android:background="@drawable/background"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:backgroundTint="@color/bluecolorPrimary"
+        android:backgroundTintMode="add"
+        android:drawableStart="@drawable/fui_ic_phone_white_24dp"
+        android:drawablePadding="8dp"
+        android:text="Log In/ Register" />
 
 </RelativeLayout>

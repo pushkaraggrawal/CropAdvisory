@@ -19,14 +19,17 @@
 
     <Spinner
         android:id="@+id/fieldTypeSpinner"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="54dp"
-        android:layout_centerVertical="true"
         android:layout_below="@id/fieldType"
+        android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:background="@android:color/transparent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/background"
         android:entries="@array/fieldType"
-        android:layout_centerHorizontal="true"
         android:spinnerMode="dropdown" />
 
     <EditText
@@ -51,24 +54,33 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:focusable="false"
+        android:clickable="true"
         android:hint="Date of Sowing" />
 
-<!--    <Spinner-->
-<!--        android:id="@+id/"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/dateSown"-->
-<!--        android:background="@color/gray"/>-->
+
+    <Spinner
+        android:id="@+id/sensorIdSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_below="@id/dateSown"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/background"
+        android:spinnerMode="dropdown" />
+<!--    android:entries="@array/sensorID"-->
 
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dateSown"
-        android:text="Submit"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_below="@id/sensorIdSpinner"
+        android:layout_centerInParent="true"
+        android:text="Submit" />
 
     <ProgressBar
         android:id="@+id/progress_loading_existing_fields"

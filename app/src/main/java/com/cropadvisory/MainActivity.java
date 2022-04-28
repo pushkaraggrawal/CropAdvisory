@@ -48,20 +48,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Humidity");
-        ref.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        showToast(snapshot.getValue().toString());
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-
-                    }
-                });
-
-
         mAuth = FirebaseAuth.getInstance();
         db = FirebaseFirestore.getInstance();
         mLogin = findViewById(R.id.login);

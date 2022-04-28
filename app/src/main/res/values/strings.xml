@@ -7,11 +7,15 @@
 
     <string name="wheat">Wheat</string>
     <string name="your_fields">Your Fields</string>
+    <string name="login_page_gyaan">Lawde ka app</string>
     <string-array name="fieldType">
         <item>@string/wheat</item>
         <item>Pearl Millet</item>
         <item>Paddy</item>
         <item>Mustard</item>
         <item>Maize</item>
+    </string-array>
+    <string-array name="sensorID">
+        <item>sensor1</item>
     </string-array>
 </resources>

@@ -1,6 +1,8 @@
 
 package com.cropadvisory;
 
+import static com.cropadvisory.SoilField.KEY_SENSOR_ID;
+
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -209,8 +211,13 @@ public class FieldsActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
                     case 1:
-                        Intent intent1 = new Intent(FieldsActivity.this, SoilField.class);
-                        startActivity(intent1);
+                        if(fieldsList.get(position).get("sensor") != null) {
+                            Intent intent1 = new Intent(FieldsActivity.this, SoilField.class);
+                            intent1.putExtra(KEY_SENSOR_ID, fieldsList.get(position).get("sensor").toString());
+                            startActivity(intent1);
+                        }else{
+                            showToast("No Sensor Linked to the Field!");
+                        }
                         break;
                     case 2:
                         editFields(position);

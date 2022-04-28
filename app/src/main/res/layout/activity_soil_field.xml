@@ -9,6 +9,15 @@
     android:foregroundGravity="center"
     tools:context=".SoilField">
 
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Sensor Measurements"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -17,10 +26,11 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="0"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
     <TextView
         android:id="@+id/textView2"
@@ -30,6 +40,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="75"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView7"
@@ -43,6 +54,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="40"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView8"
@@ -56,6 +68,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="70"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView9"
@@ -69,6 +82,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:text="56"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -82,10 +96,11 @@
         android:layout_marginTop="24dp"
         android:text="Active"
         android:textAlignment="center"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView7"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
     <TextView
         android:id="@+id/textView7"
@@ -95,6 +110,7 @@
         android:layout_marginTop="24dp"
         android:text="Humidity"
         android:textAlignment="center"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,6 +123,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Moisture"
+        android:textSize="18sp"
         android:textColor="@color/white"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView9"
@@ -120,6 +137,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Nitrogen"
+        android:textSize="18sp"
         android:textColor="@color/white"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView10"
@@ -133,6 +151,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Temperature"
+        android:textSize="18sp"
         android:textColor="@color/white"
         android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,6 +163,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Sensor 1"
+        android:textSize="18sp"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/textView5"
         app:layout_constraintStart_toStartOf="@+id/textView10"

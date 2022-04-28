@@ -8,7 +8,7 @@
 
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+<!--    <color name="colorAccent">#03DAC5</color>-->
 
     <color name="background">#81252422</color>
     <color name="backgroundforecast">#B2252422</color>
@@ -21,4 +21,16 @@
     <color name="yellow">#FFEA00</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+
+    <color name="bluecolorPrimary">#2196F3</color>
+    <color name="bluecolorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#F4B400</color>
+    <color name="golden">#d4af37</color>
+
+    <color name="greyPrimary">#DE000000</color>
+    <color name="greySecondary">#8B000000</color>
+    <color name="greyDisabled">#61000000</color>
+    <color name="greyText">#757575</color>
+    <color name="greyish">#F3F3F3</color>
+    <color name="greyBackground">#E0E0E0</color>
 </resources>

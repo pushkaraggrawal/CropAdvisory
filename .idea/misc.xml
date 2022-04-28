@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Akash_2/AndroidStudioProjects/CropAdvisory/app/src/main/res/drawable/background.xml" value="0.142" />
+        <entry key="..\:/Users/Akash_2/AndroidStudioProjects/CropAdvisory/app/src/main/res/layout/activity_add_new_field.xml" value="0.25" />
+        <entry key="..\:/Users/Akash_2/AndroidStudioProjects/CropAdvisory/app/src/main/res/layout/activity_fields.xml" value="0.22037037037037038" />
+        <entry key="..\:/Users/Akash_2/AndroidStudioProjects/CropAdvisory/app/src/main/res/layout/activity_login_register.xml" value="0.25" />
+        <entry key="..\:/Users/Akash_2/AndroidStudioProjects/CropAdvisory/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Akash_2/AndroidStudioProjects/CropAdvisory/app/src/main/res/layout/activity_soil_field.xml" value="0.25" />
         <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_2.xml" value="0.259375" />
         <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_add_new_field.xml" value="0.259375" />
         <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_field.xml" value="0.259375" />
