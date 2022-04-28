@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Crop Advisory</string>
+    <string name="field_empty">This Field is required</string>
+    <string name="pincode_error">Enter correct pincode</string>
+    <string name="log_in">Log In</string>
+
+
+    <string name="wheat">Wheat</string>
+    <string name="your_fields">Your Fields</string>
+    <string-array name="fieldType">
+        <item>@string/wheat</item>
+        <item>Pearl Millet</item>
+        <item>Paddy</item>
+        <item>Mustard</item>
+        <item>Maize</item>
+    </string-array>
+</resources>

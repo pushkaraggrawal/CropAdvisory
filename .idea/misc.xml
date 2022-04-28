@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_list_item_2.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_add_new_field.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_field.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_fields.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_login_register.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_soil_field.xml" value="0.536" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/activity_weather.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/layout/fieldlistitem.xml" value="0.259375" />
+        <entry key="..\:/Users/user/Desktop/sop3/app/src/main/res/menu/popup_menu.xml" value="0.2453125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

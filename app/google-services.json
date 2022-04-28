@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467096303693",
+    "project_id": "cropadvisory-fc91a",
+    "storage_bucket": "cropadvisory-fc91a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467096303693:android:395af5f40965a8693cc404",
+        "android_client_info": {
+          "package_name": "com.cropadvisory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467096303693-495n0encjqgitl8c0nboljm6b9clejk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8-fZYhBlrvjk-IhSykRFn5-5ePN90LnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467096303693-495n0encjqgitl8c0nboljm6b9clejk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
